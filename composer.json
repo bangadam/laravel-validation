@@ -1,0 +1,34 @@
+{
+  "name": "bangadam/laravel-validation",
+  "description": "Laravel Validation is a package for Laravel developers that provides an easy-to-use, powerful validation system. It allows you to quickly and easily validate user input, ensuring data integrity and accuracy.",
+  "type": "package",
+  "require": {
+    "php": "^8.0",
+    "laravel/framework": "9.*|10.*"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Bangadam\\LaravelValidation\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "bangadam",
+      "email": "bangadam.dev@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require-dev": {
+    "roave/security-advisories": "dev-latest",
+    "orchestra/testbench": "^7.0|8.*",
+    "phpunit/phpunit": "^9.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Bangadam\\LaravelValidation\\LaravelValidationServiceProvider"
+      ]
+    }
+  }
+}
