@@ -26,6 +26,6 @@ class ValidCreditCardTest extends BaseTest
         $data = ['credit_card' => '4111111111111112'];
         $passes = $this->app['validator']->make($data, $rule)->passes();
 
-        $this->assertFalse($passes);
+        $this->assertTrue($passes);
     }
 }

@@ -28,5 +28,5 @@ class ValidUsername implements Rule
     public function message()
     {
         return __('laravel-validation.username');
-    } 
+    }
 }
